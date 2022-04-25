@@ -125,6 +125,7 @@ figure {
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: #1c9d5d;
     }
+ 
   #johnDoe-aside #johnDoe-main-menu {
     display: block;
     width: 100%; }
@@ -1349,3 +1350,5 @@ body.offcanvas {
 
 .js .animate-box {
   opacity: 0; }
+
+  
