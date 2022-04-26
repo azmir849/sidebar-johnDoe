@@ -6,7 +6,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Quicksand", Arial, sans-serif;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-weight: 400;
   font-size: 15px;
   line-height: 1.8;
@@ -343,13 +343,14 @@ body.offcanvas {
 }
 
 .johnDoe-heading {
-  font-size: 18px;
-  margin-bottom: 4em;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 26px;
+  margin-bottom: 10px;
   font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 5px;
+  letter-spacing: 1px;
   line-height: 1.8;
-  position: relative; }
+  position: relative; 
+}
   .johnDoe-heading span {
     display: block; }
   @media screen and (max-width: 768px) {
@@ -357,24 +358,100 @@ body.offcanvas {
       margin-bottom: 3em; } }
 
 .heading-meta {
-  margin-bottom: 15px;
-  display: block;
-  font-size: 10px;
   text-transform: uppercase;
-  color: #999999;
-  font-weight: 500;
-  letter-spacing: 5px; }
+  color: #1c9d5d;
+  font-weight: 800;
+}
 
 .about-img {
   width: 100%;
   height: 600px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+ }
 
+.about-desc h1 {
+  font-size: 42px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 800;
+ }
 .about-desc h3 {
   font-size: 18px;
   text-transform: uppercase;
   letter-spacing: 5px;
-  font-weight: 500; }
+  font-weight: 500;
+ }
+
+ .aboutDescription {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 18px;
+   color: rgb(162, 162, 162);
+ }
+
+ .aboutSocialInfo h2 {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: rgb(131, 131, 131);
+ }
+ .aboutSocialInfo img {
+ margin-left: 10px;
+ margin-right: 15px;
+ }
+
+ .banner_thumb::after {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 40%;
+  top: 0;
+  right: 0;
+  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: -1;
+}
+
+.banner_thumb::before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 46%;
+  top: 0;
+  right: 0;
+  clip-path: polygon(22% 0, 100% 0, 100% 100%, 0% 100%);
+  z-index: -1;
+}
+
+.banner_thumb .home_img {
+  position: relative;
+}
+
+.banner_thumb .home_img img {
+  width: 100% !important;
+}
+
+.banner_thumb .play {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%);
+  -webkit-transform: translate(-50%);
+  -moz-transform: translate(-50%);
+  -ms-transform: translate(-50%);
+  -o-transform: translate(-50%);
+}
+
+.banner_thumb .play i {
+  font-size: 50px;
+  /* color: #1c9d5d; */
+  border-radius: 50%;
+  background-color: #ffffff;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.1);
+}
+
+
+
 
 .hire {
   padding: 2em;
@@ -560,7 +637,24 @@ body.offcanvas {
   -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
   box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  border-bottom: 2px solid #2c98f0; }
+  /* border-bottom: 2px solid #2c98f0; */
+ }
+.services:hover{
+  background-color: #1c9d5d;
+}
+.services:hover p{
+  color: rgb(255, 255, 255);
+}
+ .services h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 90px;
+ }
+ .services p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 24px;
+   color: rgb(128, 128, 128);
+ }
+
   .services .icon2 {
     display: block;
     margin-bottom: 20px; }
