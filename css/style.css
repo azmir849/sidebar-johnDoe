@@ -221,31 +221,47 @@ figure {
   margin-top: -40px;
   letter-spacing: 2px;
 }
-#johnDoe-hero button{
+#johnDoe-hero .downloadBtn{
   color: black;
   font-size:medium;
   font-weight: bold;
   padding: 5px 20px;
-  border: none;
+  border: 1px solid rgb(231, 231, 231);
   border-radius: 2px;
   background: #ffffff;
   box-shadow:  26px 26px 91px #bdbdbd,
              -26px -26px 91px #ffffff;
 }
-#johnDoe-hero button:hover{
+#johnDoe-hero .downloadBtn:hover{
   color: white;
+  border: none;
 border-radius: 5px;
 background: #1c9d5d;
 box-shadow:  -8px 8px 16px #157646,
              8px -8px 16px #23c474;
 }
-#socilaMedias span {
-  padding: 10px 40px;
-  color: gray;
-  font-size: 30px !important;
-  font: 900 !important;
+.socialMediaIcon i{
+  margin-top: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 700;
+  font-size: 30px;
 }
-
+.socialMediaIcon i:hover{
+  color: #1c9d5d;
+}
+.socialMediaIcon .socilaMediaBg{
+  padding: 15px 35px !important;
+  color: black;
+  font-size:medium;
+  font-weight: bold;
+  padding: 5px 20px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #f0f0f0,
+               -20px -20px 60px #ffffff;
+}
 .container-wrap {
   /* max-width: 1170px;
   margin: 0 auto;  */
