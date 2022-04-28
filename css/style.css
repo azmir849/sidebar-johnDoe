@@ -14,25 +14,13 @@ body {
   @media screen and (max-width: 992px) {
     body {
       font-size: 16px; } }
-
-a {
-  color: #2c98f0;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s; }
-  a:hover, a:active, a:focus {
-    color: #2c98f0;
-    outline: none;
-    text-decoration: none !important; }
-
-p {
-  margin-bottom: 1.5em; }
-
+      
 h1, h2, h3, h4, h5, h6 {
-  color: #000;
-  font-family: "Playfair Display", Georgia, serif;
-  font-weight: 400;
-  margin: 0 0 30px 0; }
+        color: #000;
+        font-family: "Playfair Display", Georgia, serif;
+        font-weight: 400;
+        margin: 0 0 30px 0; }
+
 
 figure {
   margin-bottom: 2.5em;
@@ -396,6 +384,29 @@ body.offcanvas {
  margin-left: 10px;
  margin-right: 15px;
  }
+.experience {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 30px;
+  padding-top: 1rem;
+  padding-bottom: 70px;
+  border-radius: none;
+  background: #ffffff;
+  /* box-shadow:  -8px 8px 16px #c4c4c4,
+             8px -8px 16px #ffffff; */
+  /* box-shadow: 0 30px 30px -30px #c4c4c4, -30px 0 30px -30px #c4c4c4;           */
+  /* box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 20px 0 rgba(0, 0, 0, 0.19); */
+   /* box-shadow: 0 8px -1px 0 rgba(0, 0, 0, 0.2), 8px 8px 20px 0 rgba(0, 0, 0, 0.19);  */
+
+    box-shadow: 0 10px 20px -5px rgba(115,115,115,0.75),
+                -10px 0 20px -5px rgba(115,115,115,0.75);
+
+}
+.experienceLeftCol h3{
+  font-weight: bold;
+  color: black;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
 
  .banner_thumb::after {
   position: absolute;
@@ -440,7 +451,7 @@ body.offcanvas {
 
 .banner_thumb .play i {
   font-size: 50px;
-  /* color: #1c9d5d; */
+  color: #1c9d5d;
   border-radius: 50%;
   background-color: #ffffff;
   -webkit-border-radius: 50%;
@@ -449,9 +460,33 @@ body.offcanvas {
   -o-border-radius: 50%;
   box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.1);
 }
+.educationCard {
+  background: #ffffff;
+  box-shadow: 0 10px 20px -5px rgba(115,115,115,0.75),
+                -10px 0 20px -5px rgba(115,115,115,0.75);
+}
 
+.educationCard img{
+  margin-top: -50px;
+}
 
-
+.educationCard h3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+}
+.educationCard h5{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-top: -20px;
+}
+.educationCard button{
+  background: none;
+  padding: 2PX 20PX;
+  border: 1px solid #1c9d5d;
+  font-weight: bold;
+  font-size: 16px;
+}
 
 .hire {
   padding: 2em;
