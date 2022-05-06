@@ -256,6 +256,7 @@ body.offcanvas {
 .johnDoe-work,
 .johnDoe-about,
 .johnDoe-services,
+.johnDoe-language,
 .johnDoe-contact {
   padding-top: 4em;
   padding-bottom: 9em;
@@ -270,6 +271,7 @@ body.offcanvas {
     .johnDoe-work,
     .johnDoe-about,
     .johnDoe-services,
+    .johnDoe-language,
     .johnDoe-contact {
       padding-top: 5em;
       padding-bottom: 8em; } }
@@ -526,6 +528,24 @@ font-size: 24px;
   font-weight: 700;
 }
 
+.languageTriangle{
+  position: relative;
+  text-align: center;
+  color: #1c9d5d;
+}
+.languageTriangle h2{
+ font-size: 24px;
+ font-weight: 700;
+ letter-spacing: 2px;
+}
+.centered {
+  position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -96%);
+   font-size: 18px;
+   font-weight: 300;
+}
 
 
 .hire {

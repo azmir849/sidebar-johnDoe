@@ -66,6 +66,35 @@
 }
 
 
+span.tooltip{
+
+position:absolute;
+width:100px;
+height:20px;
+line-height:20px;
+padding:10px;
+font-size:14px;
+text-align:center;
+color:rgb(113, 157, 171);
+background:rgb(255, 255, 255);
+border:4px solid rgb(255, 255, 255);
+border-radius:5px;
+text-shadow:rgba(0, 0, 0, 0.1) 1px 1px 1px;
+box-shadow:rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
+}
+
+span.tooltip:after {
+content:"";
+position:absolute;
+width:0;
+height:0;
+border-width:20px;
+border-style:solid;
+border-color: transparent transparent #FFFFFF transparent;
+top:-40px;
+left:40px;
+}
+
 	
 </style>
 
@@ -92,7 +121,7 @@
 							<li><a href="#" data-nav-section="skills">Skills</a></li>
 							<li><a href="#" data-nav-section="education">Education</a></li>
 							<li><a href="#" data-nav-section="service">Services</a></li>
-							<li><a href="#" data-nav-section="work">Languages</a></li>
+							<li><a href="#" data-nav-section="language">Languages</a></li>
 							<li><a href="#" data-nav-section="blog">Portfolio</a></li>
 							<li><a href="#" data-nav-section="contact">Awards</a></li>
 							<li><a href="#" data-nav-section="contact">Interests</a></li>
@@ -439,7 +468,7 @@
 					</div>
 				</section>
 
-				<section class="johnDoe-service ml-md-5" data-section="service">
+				<section class="johnDoe-services ml-md-5" data-section="service">
 					<div class="johnDoe-narrow-content">
 						<div class="row">
 							<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
@@ -523,6 +552,47 @@
 									</div>
 								  </a>
 							</div>
+						</div>	
+					</div>
+					</div>	
+				</section>
+
+				
+				<section class="johnDoe-language ml-md-5" data-section="language">
+					<div class="johnDoe-narrow-content">
+						<div class="row">
+							<div class="col-md-12 col-md-offset-3 col-md-pull-3 animate-box"
+								data-animate-effect="fadeInLeft">
+								<h1 class="animate-box text-center" style="font-weight: bold; font-size: 44px; text-transform: uppercase;"><span  class="heading-meta">Languages</span></h1>
+							</div>
+						</div>
+					<div class="container mt-5">
+						<div class="row">
+							<div class="col languageTriangle">
+								<h2>Bangla</h2>
+								<img src="./images/triangle.png" alt="Snow" style="width:100%;">
+								<div class="centered">Advanced</div>
+							  </div>  
+							<div class="col languageTriangle">
+								<h2>English</h2>
+								<img src="./images/triangle.png" alt="Snow" style="width:100%;">
+								<div class="centered">Beginner</div>
+							  </div>  
+							<div class="col languageTriangle">
+								<h2>Hindi</h2>
+								<img src="./images/triangle.png" alt="Snow" style="width:100%;">
+								<div class="centered">Intermediate</div>
+							  </div>  
+							<div class="col languageTriangle">
+								<h2>Urdu</h2>
+								<img src="./images/triangle.png" alt="Snow" style="width:100%;">
+								<div class="centered">Advanced</div>
+							  </div>  
+							<div class="col languageTriangle">
+								<h2>France</h2>
+								<img src="./images/triangle.png" alt="Snow" style="width:100%;">
+								<div class="centered">Beginner</div>
+							  </div>  
 						</div>	
 					</div>
 					</div>	
