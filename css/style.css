@@ -367,6 +367,9 @@ body.offcanvas {
 .johnDoe-portfolio,
 .johnDoe-awards,
 .johnDoe-interests,
+.johnDoe-clients,
+.johnDoe-journal,
+.johnDoe-reference,
 .johnDoe-work,
 .johnDoe-about,
 .johnDoe-services,
@@ -384,6 +387,9 @@ body.offcanvas {
     .johnDoe-portfolio,
     .johnDoe-awards,
     .johnDoe-interests,
+    .johnDoe-clients,
+    .johnDoe-journal,
+    .johnDoe-reference,
     .johnDoe-work,
     .johnDoe-about,
     .johnDoe-services,
@@ -946,4 +952,41 @@ box-shadow:  20px 20px 60px #d9d9d9,
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.clientCardElements{
+  padding: 20px 0 20px 0;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+}
+
+.clientCardElements h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom: 0 !important;
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.clientCardElements p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #1c9d5d;
+}
+.clientCardElements button{
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  outline: none;
+  background-color: #1c9d5d;
+  border-radius: 5px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.clientCardElements img{
+  border-radius: 50%;
+  border: 3px solid #1c9d5d;
 }
