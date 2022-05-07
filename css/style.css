@@ -925,4 +925,10 @@ box-shadow:  20px 20px 60px #d9d9d9,
   .portfolio-entry:hover .portfolio-img img {
     transform: scale(1.1); }
 
-
+.awardsCard {
+  border: none;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9,
+             -20px -20px 60px #ffffff;
+} 
