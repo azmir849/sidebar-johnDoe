@@ -699,6 +699,15 @@ font-size: 24px;
   position: relative;
   text-align: center;
   color: #1c9d5d;
+  transition: transform .2s; 
+}
+.languageTriangle img:hover{
+  cursor: pointer;
+  transform: scale(1.1);
+}
+.languageTriangle h2:hover{
+  cursor: pointer;
+  transform: scale(1.1);
 }
 .languageTriangle h2{
  font-size: 24px;
@@ -713,7 +722,6 @@ font-size: 24px;
    font-size: 18px;
    font-weight: 300;
 }
-
 .progress-wrap h3 {
   font-size: 16px;
   margin-bottom: 10px; }
