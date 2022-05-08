@@ -470,41 +470,7 @@ body.offcanvas {
  margin-left: 10px;
  margin-right: 15px;
  }
- .services {
-  margin-bottom: 30px;
-  padding: 1.5em;
-  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
-  /* border-bottom: 2px solid #2c98f0; */
- }
-.services:hover{
-  background-color: #1c9d5d;
-}
-.services:hover p{
-  color: rgb(255, 255, 255);
-}
- .services h1{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 90px;
- }
- .services p{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   font-size: 24px;
-   color: rgb(128, 128, 128);
- }
 
-.services {
-  margin-bottom: 80px;
-  position: relative;
-  z-index: 0; }
-  @media screen and (max-width: 768px) {
-    .services {
-      margin-bottom: 4em; }
-    }
-  
-
- 
 .experience {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-bottom: 30px;
@@ -584,6 +550,7 @@ body.offcanvas {
   box-shadow: 1px 1.732px 40px 0px rgba(0, 0, 0, 0.1);
 }
 .educationCard {
+  transition: transform .2s; 
   background: #ffffff;
   box-shadow: 0 10px 20px -5px rgba(115,115,115,0.75),
                 -10px 0 20px -5px rgba(115,115,115,0.75);
@@ -609,7 +576,52 @@ body.offcanvas {
   border: 1px solid #1c9d5d;
   font-weight: bold;
   font-size: 16px;
+  margin-bottom: 1em;
 }
+.educationCard:hover{
+  cursor: pointer;
+  background: #1c9d5d;
+}
+.educationCard button:hover{
+  background: #1c9d5d;
+  color: white;
+  font-weight: 100;
+}
+
+
+.services {
+  margin-bottom: 30px;
+  padding: 1.5em;
+  -ms-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  -o-box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  box-shadow: 0px 0px 56px -8px rgba(0, 0, 0, 0.17);
+  /* border-bottom: 2px solid #2c98f0; */
+ }
+.services:hover{
+  background-color: #1c9d5d;
+}
+.services:hover p{
+  color: rgb(255, 255, 255);
+}
+ .services h1{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 90px;
+ }
+ .services p{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 24px;
+   color: rgb(128, 128, 128);
+ }
+
+.services {
+  margin-bottom: 80px;
+  position: relative;
+  z-index: 0; }
+  @media screen and (max-width: 768px) {
+    .services {
+      margin-bottom: 4em; }
+    }
+  
 
 .go-corner {
   display: flex;
