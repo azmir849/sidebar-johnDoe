@@ -292,7 +292,7 @@ figure {
   letter-spacing: 1px;
   padding: 5px 20px;
   border: 1px solid rgb(231, 231, 231);
-  border-radius: 2px;
+  border-radius: 5px;
   background: #ffffff;
   box-shadow:  26px 26px 91px #bdbdbd,
              -26px -26px 91px #ffffff;
@@ -300,10 +300,7 @@ figure {
 #johnDoe-hero .downloadBtn:hover{
   color: white;
   border: none;
-border-radius: 5px;
-background: #1c9d5d;
-box-shadow:  -8px 8px 16px #157646,
-             8px -8px 16px #23c474;
+  background: #1c9d5d;
 }
 .socialMediaIcon i{
   margin-top: 10px;
@@ -607,6 +604,16 @@ body.offcanvas {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 90px;
  }
+ @media (min-width: 768px) and (max-width: 991px) {
+  .services h1{
+     font-size: 35px;
+   }
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  .services h1{
+    font-size: 50px;
+  }
+}
  .services p{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: 24px;
@@ -870,6 +877,12 @@ box-shadow:  20px 20px 60px #d9d9d9,
   .portfolio-entry:hover .portfolio-img img {
     transform: scale(1.1); }
 
+
+@media (min-width: 768px) and (max-width: 1199px) {
+  .noWrapGrid{
+    flex-wrap: nowrap !important;
+  }
+}
 .awardsCard {
   border: none;
   border-radius: 5px;
@@ -918,7 +931,12 @@ box-shadow:  20px 20px 60px #d9d9d9,
   font-weight: 700;
   letter-spacing: 1px;
 }
-
+@media (min-width: 768px) and (max-width: 1199px) {
+  .col3replace{
+    flex:none !important;
+    max-width:none !important;
+  }
+}
 .clientCardElements{
   transition: transform 0.5s ease-in;
   padding: 20px 0 20px 0;
@@ -962,11 +980,15 @@ box-shadow:  20px 20px 60px #d9d9d9,
 }
 
 .journalCard {
+  transition: transform 0.5s ease-in;
   padding: 20px;
   border-radius: 5px;
   background: #ffffff;
   box-shadow:  20px 20px 60px #d9d9d9,
              -20px -20px 60px #ffffff;
+}
+.journalCard:hover{
+  transform: scale(1.1);
 }
 
 .journalRightText h2 {
@@ -990,6 +1012,17 @@ box-shadow:  20px 20px 60px #d9d9d9,
   margin-top: 5px;
   color: #000;
   font-size: 20px;
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .blogImgInText{
+    max-height: 250px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+  .blogText{
+    max-height: 220px !important;
+    overflow: hidden;
+  }
 }
 
 .endorsementRightText h2 {
@@ -1039,7 +1072,10 @@ box-shadow:  20px 20px 60px #d9d9d9,
   box-shadow:  20px 20px 60px #eeeded,
              20px 20px 60px #ffffff;
  }
- .input-group input {
+ .input-group input{
+  border: white;
+ }
+ .input-group textarea{
   border: white;
  }
  .input-group 
@@ -1082,4 +1118,19 @@ box-shadow:  20px 20px 60px #d9d9d9,
  .formButton:focus{
    border: none !important;
    outline: none !important;
+ }
+
+ .btn-floating{
+   border: none !important;
+   padding: 15px 20px;
+   border-radius: 50%;
+   background-color: #1c9d5d;
+ }
+ .btn-floating:focus{
+   outline: none !important;
+ }
+
+ .btn-floating i{
+   color: white;
+   font-size: 16px;
  }
