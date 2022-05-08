@@ -920,11 +920,16 @@ box-shadow:  20px 20px 60px #d9d9d9,
 }
 
 .clientCardElements{
+  transition: transform 0.5s ease-in;
   padding: 20px 0 20px 0;
   border-radius: 5px;
   background: #ffffff;
   box-shadow:  20px 20px 60px #d9d9d9,
              -20px -20px 60px #ffffff;
+}
+
+.clientCardElements:hover{
+  transform: scale(1.1);
 }
 
 .clientCardElements h2{
