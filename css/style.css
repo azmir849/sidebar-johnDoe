@@ -897,6 +897,14 @@ box-shadow:  20px 20px 60px #d9d9d9,
   transform: scale(1.1);
 }
 
+.interests {
+  transition: transform 0.5s;
+}
+
+.interests:hover{
+  transform: scale(1.2);
+}
+
 .interests img{
   /* margin-left: 35px; */
   border-radius: 50%;
