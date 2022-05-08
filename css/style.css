@@ -91,6 +91,7 @@ figure {
     .johnDoeSideBarDesignation{
       font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       color: #1c9d5d;
+      font-size: 24px;
     }
  
   #johnDoe-aside #johnDoe-main-menu {
@@ -273,19 +274,22 @@ figure {
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   margin-top: 60px;
   letter-spacing: 3px;
-  font-size: 84px;
+  font-size: 70px;
   font-weight: bold;
 }         
 #johnDoe-hero h3{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   color: #1c9d5d;
-  margin-top: -40px;
+  margin-top: -45px;
   letter-spacing: 2px;
+  font-size: 24px;
 }
 #johnDoe-hero .downloadBtn{
+  margin-top: -100px !important;
   color: black;
   font-size:medium;
   font-weight: bold;
+  letter-spacing: 1px;
   padding: 5px 20px;
   border: 1px solid rgb(231, 231, 231);
   border-radius: 2px;
@@ -312,11 +316,10 @@ box-shadow:  -8px 8px 16px #157646,
   color: #1c9d5d;
 }
 .socialMediaIcon .socilaMediaBg{
-  padding: 15px 35px !important;
+  margin-top: -100px !important;
   color: black;
   font-size:medium;
   font-weight: bold;
-  padding: 5px 20px;
   border: 1px solid rgb(231, 231, 231);
   border-radius: 8px;
   background: #ffffff;
@@ -371,13 +374,14 @@ body.offcanvas {
 .johnDoe-journal,
 .johnDoe-reference,
 .johnDoe-endorsements,
+.johnDoe-appoinment,
 .johnDoe-work,
 .johnDoe-about,
 .johnDoe-services,
 .johnDoe-language,
 .johnDoe-contact {
-  padding-top: 3em;
-  padding-bottom: 5em;
+  padding-top: 2em;
+  padding-bottom: 2em;
   clear: both;
   width: 100%;
   display: block; }
@@ -392,13 +396,14 @@ body.offcanvas {
     .johnDoe-journal,
     .johnDoe-reference,
     .johnDoe-endorsements,
+    .johnDoe-appoinment,
     .johnDoe-work,
     .johnDoe-about,
     .johnDoe-services,
     .johnDoe-language,
     .johnDoe-contact {
-      padding-top: 5em;
-      padding-bottom: 8em; } }
+      padding-top: 2em;
+      padding-bottom: 2em; } }
 
 .author-img {
   background-size: cover;
@@ -1041,4 +1046,77 @@ box-shadow:  20px 20px 60px #d9d9d9,
 .endorsementRightText p {
   color: #000;
   font-size: 20px;
+ }
+
+ .appoinmentCard  {
+  padding: 20px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #ebebeb,
+             20px 20px 60px #ffffff;
+ }
+ .appoinmentCard h3,p {
+  margin-bottom: 0 !important;
+ }
+ .appoinmentCard h3{
+  color: #1c9d5d;
+  font-size: 24px;
+  font-weight: 700;
+  letter-spacing: 1px;
+ }
+ .appoinmentCard p{
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 1px;
+ }
+
+ .input-group {
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #eeeded,
+             20px 20px 60px #ffffff;
+ }
+ .input-group input {
+  border: white;
+ }
+ .input-group 
+ .form-control:last-child, 
+ .input-group-addon:last-child, 
+ .input-group-btn:last-child > 
+ .btn, .input-group-btn:last-child > 
+ .btn-group > .btn, .input-group-btn:last-child > 
+ .dropdown-toggle, .input-group-btn:first-child > 
+ .btn:not(:first-child), 
+ .input-group-btn:first-child > 
+ .btn-group:not(:first-child) > .btn {
+  font-size: 18px;
+}
+
+.contactCard  {
+  padding: 20px;
+  border-radius: 5px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #ebebeb,
+             20px 20px 60px #ffffff;
+ }
+
+ .formButton {
+   border: none;
+   border-radius: 5px;
+   margin-top: 30px;
+   margin-left: 10px;
+   padding-left: 60px;
+   padding-right: 60px;
+   color: white;
+   background-color: #1c9d5d;
+   text-transform: uppercase;
+   font-size: 16px;
+ }
+ .formButton:hover {
+   background-color: #167a48;
+ }
+
+ .formButton:focus{
+   border: none !important;
+   outline: none !important;
  }
