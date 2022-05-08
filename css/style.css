@@ -141,7 +141,7 @@ figure {
             transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275); }
           #johnDoe-aside #johnDoe-main-menu ul li a:hover {
             text-decoration: none;
-            color: black; }
+            color: #1c9d5d;; }
             #johnDoe-aside #johnDoe-main-menu ul li a:hover:after {
               visibility: visible;
               transform: scaleX(1); }
@@ -162,9 +162,9 @@ figure {
               cursor: pointer;
               text-decoration: none; }
               .johnDoe-nav-toggle.active i::before, .johnDoe-nav-toggle.active i::after {
-                background: #000; }
+                background: #1c9d5d; }
               .johnDoe-nav-toggle.dark.active i::before, .johnDoe-nav-toggle.dark.active i::after {
-                background: #000; }
+                background: #1c9d5d; }
               .johnDoe-nav-toggle:hover, .johnDoe-nav-toggle:focus, .johnDoe-nav-toggle:active {
                 outline: none;
                 border-bottom: none !important; }
@@ -176,27 +176,27 @@ figure {
                 *display: inline;
                 width: 30px;
                 height: 2px;
-                color: #000;
+                color: #1c9d5d;
                 font: bold 14px/.4 Helvetica;
                 text-transform: uppercase;
                 text-indent: -55px;
-                background: #000;
+                background: #1c9d5d;
                 transition: all .2s ease-out; }
                 .johnDoe-nav-toggle i::before, .johnDoe-nav-toggle i::after {
                   content: '';
                   width: 30px;
                   height: 2px;
-                  background: #000;
+                  background: #1c9d5d;
                   position: absolute;
                   left: 0;
                   transition: 0.2s; }
               .johnDoe-nav-toggle.dark i {
                 position: relative;
-                color: #000;
-                background: #000;
+                color: #1c9d5d;
+                background: #1c9d5d;
                 transition: all .2s ease-out; }
                 .johnDoe-nav-toggle.dark i::before, .johnDoe-nav-toggle.dark i::after {
-                  background: #000;
+                  background: #1c9d5d;
                   transition: 0.2s; }
             
             .johnDoe-nav-toggle i::before {
