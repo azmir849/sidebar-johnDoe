@@ -55,51 +55,15 @@
 
 </head>
 
-<body>
-	<style>
-	#btn-back-to-top {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  display: none;
-  border-radius: 10%;
-}
+<body onload="myFunction()" style="margin:0;">
+	<div id="loader"></div>
 
+<style>
 
-span.tooltip{
-
-position:absolute;
-width:100px;
-height:20px;
-line-height:20px;
-padding:10px;
-font-size:14px;
-text-align:center;
-color:rgb(113, 157, 171);
-background:rgb(255, 255, 255);
-border:4px solid rgb(255, 255, 255);
-border-radius:5px;
-text-shadow:rgba(0, 0, 0, 0.1) 1px 1px 1px;
-box-shadow:rgba(0, 0, 0, 0.1) 1px 1px 2px 0px;
-}
-
-span.tooltip:after {
-content:"";
-position:absolute;
-width:0;
-height:0;
-border-width:20px;
-border-style:solid;
-border-color: transparent transparent #FFFFFF transparent;
-top:-40px;
-left:40px;
-}
-
-	
 </style>
 
 
-	<div id="johnDoe-page">
+	<div id="johnDoe-page" style="display:none;"  class="animate-bottom">
 		<div class="container-wrap">
 			<a href="#" class="js-johnDoe-nav-toggle johnDoe-nav-toggle" data-toggle="collapse" data-target="#navbar"
 				aria-expanded="false" aria-controls="navbar"><i></i></a>
@@ -1227,6 +1191,18 @@ function backToTop() {
     //     return false;
 }
 </script>
+<script>
+	var myVar;
+	
+	function myFunction() {
+	  myVar = setTimeout(showPage, 3000);
+	}
+	
+	function showPage() {
+	  document.getElementById("loader").style.display = "none";
+	  document.getElementById("johnDoe-page").style.display = "block";
+	}
+	</script>
 	
 
 </body>
