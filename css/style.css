@@ -58,11 +58,7 @@ body {
         from{ bottom:-100px; opacity:0 } 
         to{ bottom:0; opacity:1 }
       }
-      
-      #johnDoe-page {
-        display: none;
-      }      
-
+     
       
 h1, h2, h3, h4, h5, h6 {
         color: #000;
@@ -85,6 +81,18 @@ figure {
     @media screen and (max-width: 480px) {
       figure figcaption {
         width: 100%; } }
+
+        ::-webkit-selection {
+          color: #fff;
+          background: #2c98f0; }
+        
+        ::-moz-selection {
+          color: #fff;
+          background: #2c98f0; }
+        
+        ::selection {
+          color: #fff;
+          background: #2c98f0; }
 
 #johnDoe-page {
   width: 100%;
